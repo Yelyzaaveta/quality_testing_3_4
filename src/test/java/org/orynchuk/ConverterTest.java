@@ -5,6 +5,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/*
+  @author Orynhuk
+  @project quality_testing_3_4
+  @class ConverterTest
+  @version 1.0.0
+  @since 14.03.2025 - 09.25
+*/
+
 class ConverterTest {
 
     @BeforeEach
