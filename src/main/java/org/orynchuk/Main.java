@@ -14,11 +14,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введіть число: ");
-        int num = scanner.nextInt();
+        String num = scanner.nextLine();
 
-        Converter converter = new Converter();
-        String roman = converter.convertIntToRoman(num);
+        //Converter converter = new Converter();
+        //String roman = converter.convertIntToRoman(num);
 
-        System.out.println("Римське число: " + roman);
+        ConverterToInt converter = new ConverterToInt();
+        int  roman = converter.convertRomanToInt(num);
+
+        System.out.println("Переведене число: " + roman);
     }
 }
